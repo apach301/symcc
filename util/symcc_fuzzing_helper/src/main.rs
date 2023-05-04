@@ -63,7 +63,7 @@ struct CLI {
     /// however, the consequences of this is that all seeds generated
     /// by symcc will be copied into AFL, including seeds that do not
     /// trigger new code coverage.
-    #[clap(short = "m")]
+    #[clap(short = 'm')]
     dont_use_showmap: bool,
 }
 
